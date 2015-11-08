@@ -1,0 +1,133 @@
+html, body { 
+	height: 100%;
+	margin: 0;
+	padding: 0; 
+	font-family: Lucida Grande;
+}
+      
+#map { 
+	height: 100%;
+	position: relative;
+}
+
+#map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box, .box2 {
+	width: 320px;
+	height: 190px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+	background-color: #FFFF00;
+	box-shadow: 2px 2px 3px #444;
+	border-radius: 5px 5px 0 0;
+	opacity: 0.8;
+	padding: 20px;
+	font-size: 1em;
+	line-height: 175%;
+}
+
+.checkers {
+	background-image: url("taxicheckers.jpg");
+	background-size: 26.67px 20px;
+	width: 320px;
+	height: 20px;
+	padding: 0 20px;
+	position: absolute;
+	left: 0;
+	z-index: 5;
+}
+
+.top {
+	top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.bottom{
+	top: 210px;
+	border-radius: 0;
+}
+
+.box h3 {
+	font-family: Impact;
+	font-size: 1.5em;
+	letter-spacing: 2.5px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50%;
+	margin: 22.5px 0 15px 0;
+}
+
+.box p {
+	display: inline-block;
+	text-align: center;
+	color: #222;
+	width: 100px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.input, select {
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+}
+
+input, option {
+	color: #999;
+	text-align: center;
+	font-size: .9em;
+}
+
+select {
+	margin: 5px 0;
+}
+
+.submit, button {
+	position: absolute;
+	margin-top: 10px;
+	right: 30px;
+	border-radius: 5px;
+	color: #EEE;
+	background-color: #1C3D85;
+	border-color: #23448C #193A82 #193A82 #23448C;
+}
+
+.box2 {
+	height: auto;
+	top: 250px;
+	margin: 0;
+	padding: 0 20px;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+	background-color: #E3E300;
+	font-weight: bold;
+	z-index: 1;
+}
+
+ul {
+	padding: 0;
+}
+
+button {
+	display: inline-block;
+}
+
+#callTaxi {
+	position: absolute;
+	left: 35px;
+	background-color: #289C3F;
+	border-color: #2B9E42 #23963A #23963A #2B9E42;
+}
+
+#phone {
+	height: 20px;
+	width: 12px;
+	vertical-align: text-top;
+	opacity: 0.8;
+}
